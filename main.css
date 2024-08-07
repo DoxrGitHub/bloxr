@@ -1,0 +1,89 @@
+body {
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header, footer, main {
+    padding: 20px;
+}
+
+h1 {
+    color: #b695f3;
+    margin-bottom: -10px;
+}
+
+h2 {
+    overflow: hidden;
+    color: #b695f3;
+}
+
+
+.headr {
+    background-color: #414352;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2em;
+}
+
+article {
+    background-color: #45475a;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto; 
+    transition: transform 0.3s ease-in-out; /* Add transition here */
+
+}
+
+article:hover {
+    transform: scale(1.05); /* Scales the element up by 5% */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 5px 0; 
+    }
+}
+
+.ikon {
+    position: fixed;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ikon > svg {
+    width: 200vw;
+    height: 200vh;
+}
