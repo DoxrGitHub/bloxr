@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         article.appendChild(p);
 
         article.onclick = function() {
-            window.location.href = "/posts/" + siteData[key].index; 
+            window.location.href = "posts/" + siteData[key].index; 
         };
 
         container.appendChild(article);
