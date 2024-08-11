@@ -12,6 +12,6 @@ window.siteData = {
     "3": {
         "title": "Avoiding data usage while hosting things.",
         "preview": "Stuff about how to use your local Xfinity public hotspot for avoiding legal issues and data usage.",
-        "index": 2
+        "index": 3
     },
 }
