@@ -18,5 +18,10 @@ window.siteData = {
         "title": "my todos",
         "preview": "I need a list",
         "index": 4
+    },
+    "5": {
+        "title": "How to grow 10 million dollars to total monopoly.",
+        "preview": "Inaccurate explanation of what I would do with 10 million dollars.",
+        "index": 5
     }
 }
