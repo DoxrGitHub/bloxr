@@ -23,5 +23,10 @@ window.siteData = {
         "title": "How to grow 10 million dollars to total monopoly.",
         "preview": "Inaccurate explanation of what I would do with 10 million dollars.",
         "index": 5
+    },
+    "6": {
+        "title": "The private Replit Schema, leaked.",
+        "preview": "The entire GQL thing is out; too bad nobody uses Replit anymore.",
+        "index": 6
     }
 }
