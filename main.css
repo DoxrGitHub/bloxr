@@ -5,10 +5,20 @@ body {
     padding: 0;
     font-size: 16px;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
-header, footer, main {
+header, footer {
     padding: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
 }
 
 h1 {
@@ -20,7 +30,6 @@ h2 {
     overflow: hidden;
     color: #b695f3;
 }
-
 
 .headr {
     background-color: #414352;
@@ -41,12 +50,11 @@ article {
     max-width: 800px; 
     margin-left: auto;
     margin-right: auto; 
-    transition: transform 0.3s ease-in-out; /* Add transition here */
-
+    transition: transform 0.3s ease-in-out;
 }
 
 article:hover {
-    transform: scale(1.05); /* Scales the element up by 5% */
+    transform: scale(1.05);
 }
 
 nav ul {
@@ -81,6 +89,7 @@ nav ul li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 .ikon > svg {
