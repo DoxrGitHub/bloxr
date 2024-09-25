@@ -107,4 +107,4 @@ shit I think the neurolink stuff would help with that
 
 <hr>
 
-This is probably wildly inaccurate and not what would happen in reality but fun to see unfold. I copied these messages from somewhere (thats why its not in "blog format") and it was silly. Also nowhere in there did I say I would drink Coke Zero at all :)
+This is probably wildly inaccurate and not what would happen in reality but fun to see unfold. I copied these messages from somewhere (thats why its not in "blog format") and it was silly. Also nowhere in there did I say I would drink Coke Zero at all :) I'll just stick with water

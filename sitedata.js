@@ -28,5 +28,10 @@ window.siteData = {
         "title": "The private Replit Schema, leaked.",
         "preview": "The entire GQL thing is out; too bad nobody uses Replit anymore.",
         "index": 6
+    },
+    "7": {
+        "title": "Find answers to Google Sheet based homeworks.",
+        "preview": "Something I found when reading a tutorial for teachers.",
+        "index": 7
     }
 }
